@@ -121,7 +121,7 @@ class UserPermissionsController extends Controller
      * @param  \App\UserPermissions  $userPermissions
      * @return \Illuminate\Http\Response
      */
-    public function CheckPermission(Request $request)
+    public function checkPerm(Request $request)
     {
         //
     }
